@@ -23,7 +23,6 @@ class NewsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         tabName = arguments?.getString(ARG_TAB)
-
         val newsAdapter = NewsAdapter()
         
         binding?.rvNews?.apply {
